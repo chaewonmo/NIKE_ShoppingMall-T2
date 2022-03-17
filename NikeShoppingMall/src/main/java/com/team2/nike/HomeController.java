@@ -26,6 +26,7 @@ public class HomeController {
 		return "home";
 	}
 	
+
 	@RequestMapping("/users/login.do")
 	public String login(HttpServletRequest request) {
 		return "users/login";
@@ -66,8 +67,29 @@ public class HomeController {
 	public String updateform(HttpServletRequest request) {
 		return "users/updateform";
 	}
+	
 	@RequestMapping("/product/productlist.do")
 	public String productlist(HttpServletRequest request) {
 		return "product/productlist";
+	}
+	@RequestMapping("/product/product_detail.do")
+	public String product_detail(HttpServletRequest request) {
+		return "product/product_detail";
+	}
+	
+	
+	@RequestMapping("/navbar.do")
+	public String navbar(HttpServletRequest request) {
+		
+		
+		return "navbar";
+	}
+	
+	@RequestMapping("/footer.do")
+	public String footer(HttpServletRequest request) {
+		
+		
+		return "footer";
+		
 	}
 }
