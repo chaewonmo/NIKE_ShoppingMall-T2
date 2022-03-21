@@ -65,21 +65,28 @@
 </div>
 
 <div class="row pt-3 pb-3">
-<div class="col-6">
-<h3>총 상품금액 </h3></div>
-<div class="col-6" style="text-align: right;">
+<div class="col-auto">
+<h3>총 상품 금액 </h3>
+</div>
+<div class="col-auto" style="text-align: right;">
 <h3> 219,000</h3></div>
 </div>
 </div>
           
-                <div class="container"></div>  
-     <a href="#" class="btn btn-primary">구입하기</a>
-       <a href="#" class="btn btn-primary">장바구니 가기</a>
+   	<div class="d-flex justify-content-between align-items-center">
+   	<div class="col-6 d-grid p-1">
+   <button type="button" class="btn btn-wm btn-dark">
+  구입하기</button></div> 
+     
+      	<div class="col-6 d-grid p-1">
+   <button type="button" class="btn btn-wm btn-danger">
+    장바구니 가기</button></div> 
+      
 		
-		
+		 
 		</div>
           </div>
-          
+          </div>
           </div>
  
   </div>
@@ -88,14 +95,7 @@
       
 
 </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+ 
 </div>
 
 
